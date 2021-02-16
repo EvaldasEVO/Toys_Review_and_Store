@@ -231,8 +231,9 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-weight: 300;
-  color: #364d59; }
+  font-weight: 500;
+  
+  color: #ff0095; }
 
 .border-2 {
   border-width: 2px; }
