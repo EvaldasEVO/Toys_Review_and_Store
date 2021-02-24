@@ -53,17 +53,24 @@
               <span>Pirm. - Sekm. 10:00AM - 20:00PM</span>
             </div>
             <div>
-              <button type="button" class="btn btn-primary"href="/lt/cart/" id="mini-cart-toggler" class="header-item item--wide item--last js-header-item-cart ">
+              <button type="button" class="btn btn-primary" href="/lt/cart/" id="mini-cart-toggler"
+                class="header-item item--wide item--last js-header-item-cart ">
                 <span class="position-relative">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag header-item__img img--icon"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
-            
-                    <span class="mini-cart-section__circle d-md-none">
-                         0
-                    </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-shopping-bag header-item__img img--icon">
+                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+
+                  <span class="mini-cart-section__circle d-md-none">
+                    0
+                  </span>
                 </span>
-            
+
                 <span class="header-item__title d-none d-md-inline-block">
-                        0
+                  0
                 </span>
               </button>
             </div>
@@ -87,7 +94,7 @@
               <li><a href="contact.html" class="nav-link">Kontaktai</a></li>
             </ul>
           </nav>
-          
+
 
           <div class="top-social ml-auto">
             <a href="#"><span class="icon-facebook text-teal"></span></a>
@@ -117,31 +124,58 @@
         </div>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="menu-wrap d-flex align-items-center">
-    <form class="sn-root search search--desktop d-md-block w-100 f1mgyl9u" method="" action="" spellcheck="false">
-      <div class="input-group search-input">
-        <input class="sn-input form-control search-input__input form-control" name="sn-input" type="text" autocomplete="off" placeholder="Paieška">
-        <div class="input-group-append">
-          <button class="search-input__submit btn btn-primary" type="submit">Paieška</button>
-        </div>
-      </div>
-      <div class="fgbwsmg sn-dropdown search-results-wrapper f17mvb0x">
-        <div class="search-suggestions">
+        <form class="sn-root search search--desktop d-md-block w-100 f1mgyl9u" method="" action="" spellcheck="false">
+          <div class="input-group search-input">
+            <input class="sn-input form-control search-input__input form-control" id="sn-input" type="text"
+              autocomplete="off" placeholder="Paieška">
+            <div class="input-group-append">
+              <button class="search-input__submit btn btn-primary" type="submit">Paieška</button>
+            </div>
+          </div>
+          <div class="fgbwsmg sn-dropdown search-results-wrapper f17mvb0x">
+            <div class="search-suggestions">
 
-        </div><div class="search-results-title" style="display: none;">Rasti produktai</div>
-        <div class="search-results"></div>
+            </div>
+            <div class="search-results-title" style="display: none;">Rasti produktai</div>
+            <div class="search-results"></div>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
+    </div>
+
+    <div class="container">
+      <nav class="my-4">
+        <ul class="nav nav-pills nav-fill mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="pill" id="filter-all">Visi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="pill" id="filter-berniukams">Žaislai berniukams</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="pill" id="filter-mergaitems">Žeislai mergaitėms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="pill" id="filter-minksti">Minkšti žaislai</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="pill" id="filter-lavinamieji">Lavinamieji žaidimai</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="pill" id="filter-kudikiams">Žaislai kūdikiams</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
     <div class="site-section">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm lavinamieji">
               <a class="card-link product-box-url is--image" style="text-align: center;">
 
                 <img
@@ -153,7 +187,9 @@
                   Žaislinė stovėjimo aikštelė<br> 98,99€</p><br>Pristatymas per: 5d.d.
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href=https://lt3.pigugroup.eu/colours/350/796/96/35079696/zaisline-stovejimo-aikstele-oc100_original.jpg target="_blank" >View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://lt3.pigugroup.eu/colours/350/796/96/35079696/zaisline-stovejimo-aikstele-oc100_original.jpg
+                        target="_blank">View</a></button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
                   </div>
 
@@ -162,7 +198,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm minksti">
               <a class="card-link product-box-url is--image" style="text-align: center;">
 
                 <img
@@ -176,7 +212,9 @@
                   56,29€ </p> <br>Pristatymas per: 10 d.d.
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href=https://skelbiu-img.dgn.lt/1_5_402008859/xxl-minkstas-rudas-pliusinis-meskinas-100-cm.jpg target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://skelbiu-img.dgn.lt/1_5_402008859/xxl-minkstas-rudas-pliusinis-meskinas-100-cm.jpg
+                        target="_blank">View</a></button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
                   </div>
 
@@ -185,7 +223,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm minksti">
               <a class="card-link product-box-url is--image" style="text-align: center;">
 
                 <img
@@ -201,7 +239,9 @@
                 </p> <br>Pristatymas per: 10 d.d.
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href=https://www.funtastik.lt/images/uploader/di/didelis-pliusinis-meskinas-fancy-68-cm-1.jpg target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://www.funtastik.lt/images/uploader/di/didelis-pliusinis-meskinas-fancy-68-cm-1.jpg
+                        target="_blank">View</a></button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
                   </div>
 
@@ -210,7 +250,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm berniukams">
               <a class="card-link product-box-url is--image" style="text-align: center;">
 
                 <img
@@ -224,7 +264,117 @@
                   14,91 €</p><br>Pristatymas per: 1-2 d.d.
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href=https://imuperku.lt/576884-thickbox_default/zaislinis-snekantis-interaktyvus-robotas-vaikams-b12g.jpg target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://imuperku.lt/576884-thickbox_default/zaislinis-snekantis-interaktyvus-robotas-vaikams-b12g.jpg
+                        target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card shadow-sm lavinamieji">
+              <a class="card-link product-box-url is--image" style="text-align: center;">
+
+                <img
+                  src="https://www.zaisluplaneta.lt/media/cache/category_product/catalog/2/3/2/c/232c5b8a142d2979aa90fa394e62e4c2c9f7aa4c_image_FileProvider_20190104135347_993.jpg"
+                  alt="60216 LEGO® City Fire Miesto gaisrininkų brigada 60216" class="product-box-url__img">
+              </a>
+              <div class="card-body">
+                <p class="card-text">LAVINAMIEJI ŽAIDIMAI<br>
+                  Žaislinė stovėjimo aikštelė<br> 98,99€</p><br>Pristatymas per: 5d.d.
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://lt3.pigugroup.eu/colours/350/796/96/35079696/zaisline-stovejimo-aikstele-oc100_original.jpg
+                        target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm minksti">
+              <a class="card-link product-box-url is--image" style="text-align: center;">
+
+                <img
+                  src="https://www.zaisluplaneta.lt/media/cache/category_product/catalog/2/a/9/5/2a958b864a927799ee07f08a9ab290564d82e51c_5907637944736_1.jpg"
+                  alt="MY HUMMY migdukas su miego jutikliu Lily Premium 5907637944736" class="product-box-url__img">
+              </a>
+
+              <div class="card-body">
+                <p class="card-text">MINKŠTI ŽAISLAI<br>
+                  Didelis pliušinis meškinas 120 cm.
+                  56,29€ </p> <br>Pristatymas per: 10 d.d.
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://skelbiu-img.dgn.lt/1_5_402008859/xxl-minkstas-rudas-pliusinis-meskinas-100-cm.jpg
+                        target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm minksti">
+              <a class="card-link product-box-url is--image" style="text-align: center;">
+
+                <img
+                  src="https://www.zaisluplaneta.lt/media/cache/category_product/catalog/e/b/7/d/eb7d34188c60ff8375457ab7b446887059fadeab_image_8681176330263_1_20190403132713_123.jpg"
+                  alt="MINIKOIOI migdukas su čiulptuku White Bear 101010007 101010007" class="product-box-url__img">
+              </a>
+
+              <div class="card-body">
+                <p class="card-text">MINKŠTI ŽAISLAI<br>
+                  Pliušinis meškinas 60 cm.
+                  <br>
+                  35,29€
+                </p> <br>Pristatymas per: 10 d.d.
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://www.funtastik.lt/images/uploader/di/didelis-pliusinis-meskinas-fancy-68-cm-1.jpg
+                        target="_blank">View</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm berniukams">
+              <a class="card-link product-box-url is--image" style="text-align: center;">
+
+                <img
+                  src="https://www.zaisluplaneta.lt/media/cache/category_product/catalog/8/c/d/2/8cd2d3edeb58ba3aa796dc8b885b07b5f2860ba5_QUATRAN.jpg"
+                  alt="TOBOT transformeris Quatran, 301017 301017" class="product-box-url__img">
+              </a>
+
+              <div class="card-body">
+                <p class="card-text">VAIKŲ PREKĖS<br>
+                  Sumanusis robotas Haris<br>
+                  14,91 €</p><br>Pristatymas per: 1-2 d.d.
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href=https://imuperku.lt/576884-thickbox_default/zaislinis-snekantis-interaktyvus-robotas-vaikams-b12g.jpg
+                        target="_blank">View</a></button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">ADD</button>
                   </div>
 
@@ -397,6 +547,10 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>
 
