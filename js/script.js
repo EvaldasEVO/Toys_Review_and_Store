@@ -3,7 +3,7 @@
 
 (function () {
 
-    var toysList = document.getElementsByClassName("card");
+    var toysList = document.getElementsByClassName("col-3");
 
     var btnFilterAll = document.getElementById("filter-all");
     var btnFilterBerniukams = document.getElementById("filter-berniukams");
@@ -74,7 +74,7 @@
 $(document).ready(function () {
     $("#sn-input").on("keyup", function () {
         var value = $(this).val().toLowerCase();
-        $(".card").filter(function () {
+        $(".col-3").filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
